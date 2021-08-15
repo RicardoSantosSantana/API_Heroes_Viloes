@@ -1,0 +1,112 @@
+.loading{
+  font-family: 'Tangerine', cursive;
+  line-height: 1.15;
+  font-size: 4rem;  
+  text-align:center;
+  margin-top:40px; 
+  animation:blinkingText .4s infinite;
+  background-color: transparent;
+  
+}
+@keyframes blinkingText{
+  0%{     color: #BF953F;    }
+  49%{    color: orange; }
+  60%{    color: transparent; }
+  99%{    color:transparent;  }
+  100%{   color: #000;    }
+}
+ 
+ 
+::-webkit-scrollbar {
+  width: 20px;
+  
+} 
+::-webkit-scrollbar-track {
+  background: rgb(190, 190, 190);
+} 
+::-webkit-scrollbar-thumb {
+  background: rgb(110, 110, 110);
+} 
+::-webkit-scrollbar-thumb:hover {
+  background: orange;
+}
+
+.justificar{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.title{
+  font-size:1.4em;
+  color:#222;
+  margin-bottom:5px;
+  font-family:'Tangerine';
+  font-size:2.4em;
+}
+.logoMenu{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+   
+  align-items: center;
+  justify-content: center;
+}
+.logoMenu ul{
+  display:flex;    
+  color:#222;
+  padding:0px !important;
+    
+}
+.logoMenu li{
+  list-style-type: none;
+  color:#222;
+  font-size:1.6em;
+}
+.logoMenu li:hover{
+  color:#f56a6a;
+  cursor:pointer;
+}
+.second{
+  margin-left: auto;
+} 
+ #header{
+   margin-bottom: 0px !important;
+ }
+ #menu ul li{   
+   padding:0px !important;
+   margin:0px !important; 
+   font-size:1.3em;   
+ 
+  
+ }
+ #menu ul li:hover{   
+ 
+  color:#fff !important;
+}
+#menu ul li span:hover{   
+  background-color:#f56a6a;
+  color:#fff !important;
+ padding-left:20px;
+  border-bottom-right-radius: 40px;
+  border-top-right-radius: 40px;
+ 
+}
+.lado{
+  display:flex;
+}
+@media screen and (max-width: 736px) {
+  .logoMenu{
+    display:flex;
+    
+    
+  }
+  .logoMenu ul{
+    display:flex;    
+    color:#222;
+    flex-direction: row;
+    flex-wrap: wrap;  
+    align-items: center;
+  justify-content: center;  
+  }
+  
+}

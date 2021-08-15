@@ -1,0 +1,8 @@
+module.exports = {
+  reactStrictMode: true,
+  env:{
+    ACCESS_TOKEN_HERO:"4197580593659357",
+    PUBLIC_KEY_MARVEL:"90a54fd903ac9da89be2721444a6f0f5",
+    PRIVATE_KEY_MARVEL: "0648ea54d453344d588cde08e94412e728091146",
+  },
+}
